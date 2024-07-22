@@ -13,13 +13,13 @@
   --text-color-primary: #F1F5F9;
   --text-color-secondary: #CBD5E1;
   /* Tipografia */
-  --font-familly: 'Archivo', sans-serif;
-  --h1: 800 24px/135% var(--font-familly);
-  --h2: 800 16px/140% var(--font-familly);
-  --h3: 800 14px/140% var(--font-familly);
-  --text-span: 600 14px/145% var(--font-familly);
-  --text: 16px/140% var(--font-familly);
-  --text-sm: 14px/160% var(--font-familly);
+  --font-family: 'Archivo', sans-serif;
+  --h1: 800 24px/135% var(--font-family);
+  --h2: 800 16px/140% var(--font-family);
+  --h3: 800 14px/140% var(--font-family);
+  --text-span: 600 14px/145% var(--font-family);
+  --text: 16px/140% var(--font-family);
+  --text-sm: 14px/160% var(--font-family);
 }
 
 body{
@@ -53,4 +53,16 @@ img{
 
 main{
   margin-top: 40px;
+}
+
+.content-tag{
+  display: inline-block;
+  padding: 4px 8px;
+  background-color: var(--brand-color-dark);
+  border-radius: 4px;
+  font: 500 10px/1.2 var(--font-family);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--text-color-primary);
+  box-shadow: 0px 4px 16px rgba(2, 6, 23, 0.25)
 }
